@@ -10,7 +10,7 @@ body {
   background: -o-linear-gradient(left,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* Opera 11.10+ */
   background: -ms-linear-gradient(left,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* IE10+ */
   background: linear-gradient(to right,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0075bfd0', endColorstr='#26bbffd0',GradientType=1 ), url("overlay-pattern.png") repeat; /* IE6-9 */ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0075bfd0', endColorstr='#26bbffd0',GradientType=1 ), url("overlay-pattern.png") repeat; /* IE6-9 */
 
 }
 
@@ -29,14 +29,14 @@ h2 {
   margin-bottom: 60px;
 }
 
-.logo_img {
+.logo-img {
   margin-top: 10px;
   max-width: 2821px;
   width: 80%;
   height: auto;
 }
 
-.bg_img {
+.bg-img {
   max-width: 2320px;
   width: 90%;
   height: auto;
