@@ -1,17 +1,22 @@
 body {
   text-align: center;
-  background-color: #0096db;
+  background-color: #0080bb;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-
-  background: -moz-linear-gradient(left,  rgba(0,117,191,0.7) 0%, rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,117,219,0.7)), color-stop(100%,rgba(38,187,255,0.7))), url("overlay-pattern.png") repeat; /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* IE10+ */
-  background: linear-gradient(to right,  rgba(0,117,191,0.7) 0%,rgba(38,187,255,0.7) 100%), url("overlay-pattern.png") repeat; /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0075bfd0', endColorstr='#26bbffd0',GradientType=1 ), url("overlay-pattern.png") repeat; /* IE6-9 */
-
+  /* FF3.6+ */
+  background: -moz-linear-gradient(left, rgba(0, 117, 191, 0.7) 0%, rgba(0, 136, 199, 0.7) 100%), url("overlay-pattern.png") repeat;
+  /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 117, 219, 0.7)), color-stop(100%, rgba(0, 136, 199, 0.7))), url("overlay-pattern.png") repeat;
+  /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(left, rgba(0, 117, 191, 0.7) 0%, rgba(0, 136, 199, 0.7) 100%), url("overlay-pattern.png") repeat;
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, rgba(0, 117, 191, 0.7) 0%, rgba(0, 136, 199, 0.7) 100%), url("overlay-pattern.png") repeat;
+  /* IE10+ */
+  background: -ms-linear-gradient(left, rgba(0, 117, 191, 0.7) 0%, rgba(0, 136, 199, 0.7) 100%), url("overlay-pattern.png") repeat;
+  /* W3C */
+  background: linear-gradient(to right, rgba(0, 117, 191, 0.7) 0%, rgba(0, 136, 199, 0.7) 100%), url("overlay-pattern.png") repeat;
+  /* IE6-9 */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0075bfd0', endColorstr='#0088c7d0', GradientType=1), url("overlay-pattern.png") repeat;
 }
 
 h1 {
@@ -26,15 +31,22 @@ h2 {
   color: #FFFFFF;
   margin-top: 10px;
   font-weight: 100;
+}
+
+h3 {
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  font-weight: 100;
   margin-bottom: 60px;
 }
 
 a {
   margin-top: 50px;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 300;
   color: #fff;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
 
