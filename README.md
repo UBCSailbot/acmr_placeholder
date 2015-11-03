@@ -1,3 +1,3 @@
 # acmr_placeholder
 
-A placeholder site for UBC Sailbot's Autonomous Connected Marine Robotics Competition
+A placeholder site for UBC Sailbot's Autonomous Clean-energy Marine Robotics Competition
